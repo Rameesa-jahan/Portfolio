@@ -1,0 +1,212 @@
+body{
+    background-color: rgba(8, 27, 90, 0.664);
+    background-attachment: fixed;
+    width: 100%;
+}
+.main{
+    color: white;
+}
+.home-page{
+    width: 100%;
+    background-image:url("https://codersera.com/blog/wp-content/uploads/2021/07/react-libraries.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    Background-attachment: scroll;
+    height: 600px;
+    color: white;
+    filter: contrast(280%);
+    font-family: sans-serif;
+}
+.Nav-main{
+    display: flex;
+}
+.logo{
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 50%;
+    text-align: start;
+    justify-content: flex-start;
+    height: 80px;
+}
+img{
+   width:20% 
+}
+.hello-text{
+    word-spacing: 10px;
+}
+.navbar{
+    display: flex;
+    top: 0;
+    height: 80px;
+    justify-content: space-around;
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+.home{
+    color: white;
+}
+.about{
+    color: white;
+}
+.projects{
+    color: white;
+}
+.resume{
+    color: white;
+}
+.home-left{
+    width: 50%;
+    margin-top: 136px;
+    padding: 50px;
+}
+h1{
+    color: skyblue;
+}
+.name{
+    color: #d376a0;
+}
+.home:hover{
+    color: skyblue;
+    text-decoration: underline skyblue 2px;
+    cursor: pointer;
+}
+.about:hover{
+    color: skyblue;
+    text-decoration: underline skyblue 2px;
+    cursor: pointer;
+}
+.projects:hover{
+    color: skyblue;
+    text-decoration: underline skyblue 2px;
+    cursor: pointer;
+}
+.resume:hover{
+    color: skyblue;
+    text-decoration: underline skyblue 2px;
+    cursor: pointer;
+}
+
+.intro{
+    background-image:url("https://miro.medium.com/max/1400/0*-slhAdPCeh_LHt4j");
+    margin: 0%;
+    height: 760px;   
+}
+.introduction{
+    background: radial-gradient(circle, rgba(7,30,136,1) 0%, rgba(10,31,129,1) 29%, rgba(16,34,112,1) 43%, rgba(60,96,221,1) 63%, rgba(15,28,99,1) 81%, rgba(6,23,80,1) 100%);
+    margin: 0px;
+    height: 658px;
+    padding: 40px 10px 10px 10px;
+}
+.span-color{
+    color: #d376a0;
+}
+.span-react{
+    color: skyblue;
+}
+.about-me{
+    letter-spacing: 2px;
+    color: white;
+    line-height: 50px;
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.contact-me{
+    margin-top: 90px;
+}
+.contact-icons{
+    display: flex;
+    justify-content: center;   
+    font-size: 200px
+}
+button{
+    font-size:xx-large;
+    color: skyblue;
+    border-radius: 1em;
+    text-align: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.instagram:hover {
+    background: rgb(240,240,240);
+    background: radial-gradient(circle, rgba(240,240,240,1) 0%, rgb(221, 183, 196) 100%);;
+    color: #d8367f;
+}
+.linked-in:hover{
+    color: rgb(25, 25, 218);
+    background: rgb(241,241,241);
+    background: radial-gradient(circle, rgba(241,241,241,1) 0%, rgb(12, 15, 212) 100%);
+}
+h5{
+    background-color: rgba(1, 2, 8, 0.815);
+    margin-top: 0%;
+    padding: 15px;
+    font-size: 19px;
+}
+h6{
+    color: skyblue;
+    font-size: 19px;
+}
+
+.about-page{
+    background-image: url("https://t4.ftcdn.net/jpg/04/56/11/19/360_F_456111942_3ONHsKCZ7EcbLG69GR2hJvgP4BipkyPm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    filter: contrast(280%);
+    font-family: sans-serif;
+}
+.about-background{
+    background-color: rgba(8, 27, 90, 0.664);
+    margin: 0%;
+    height: 600px;
+}
+.about-text{
+    width: 50%;
+    padding: 87px 21px 24px 62px;
+}
+.image{
+    width: 50%;
+}
+.hobbies{
+    padding:50px 21px 24px 62px;
+    font-size: large;
+}
+li{
+    list-style-type: square;
+}
+.projects-page{
+        background-image: url("https://t4.ftcdn.net/jpg/04/56/11/19/360_F_456111942_3ONHsKCZ7EcbLG69GR2hJvgP4BipkyPm.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        color: white;
+        filter: contrast(280%);
+        font-family: sans-serif;
+}
+.projects-background{
+    background-color: rgba(8, 27, 90, 0.664);
+    margin: 0%;
+    height: 600px;
+}
+.resume-page{
+    background-image: url("https://t4.ftcdn.net/jpg/04/56/11/19/360_F_456111942_3ONHsKCZ7EcbLG69GR2hJvgP4BipkyPm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    filter: contrast(280%);
+    font-family: sans-serif; 
+}
+.resume-background{
+    background-color: rgba(8, 27, 90, 0.664);
+    margin: 0%;
+    height: 600px;
+}
+
+
+
